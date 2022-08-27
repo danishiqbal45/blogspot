@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my fourth chapter practise set</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for website</h1>
+        <h2> <u> <strong>Flights</strong> <strong>Trains</strong> <strong>Hotels</strong> <strong>Cabs</strong></u></h2>
+        <h3>
+            <pre>Search for flights</pre>
+        </h3>
+
+        <!-- 
+        <form action="form.php"></form>
+        <big>Name*</big> <br>
+        <input type="text" placeholder="enter your full name"> <br>
+        <big>Email*</big> <br>
+        <input type="text" placeholder="enter your email address"> <br> -->
+
+        <label for="naam">Name*</label>
+        <br>
+        <input type="text" placeholder="Enter your full name" id="naam" size="30" required> <br>
+        <br>
+        <label for="email">E-mail*</label> <br>
+
+        <input type="email" placeholder="Enter your email address" id="email" size="30" required>
+        <br>
+        <br>
+        <label for="naam">From*</label>
+        <select name="place" id="place">
+            <option value="aus">Nepal</option>
+            <option value="jsi">australia</option>
+            <option value="xj">canada</option>
+
+        </select>
+        <label for="naam">To*</label>
+        <select name="place" id="place">
+            <option value="aus">Arab</option>
+            <option value="jsi">Dubai</option>
+            <option value="xj">Turkey</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="adults">Adults*(1-10) :</label>
+
+        <input type="number" placeholder="(1-10)" id="adults" name="tentacle" min="1" max="10">
+
+
+        <label for="adult">Children* (1-10):</label>
+
+        <input type="number" placeholder="(1-10)" id="adult" name="tentacles" min="1" max="10"> <br>
+        <br>
+        <label for="class">Travel Class*</label> <br>
+        <select name="class" id="class">
+            <option value="x">Economy class</option>
+            <option value="y">Bussiness class</option>
+
+        </select> <br>
+        <br>
+        <label for="time">Departure On*</label>
+        <input type="date" id="time" name="time" value="2018-07-22" min="2022-01-01" max="2022-12-31">
+        <label for="type">Journey Type*</label>
+        <select name="type" id="type">
+            <option value="x">One Way</option>
+            <option value="y">Two Way</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Search">
+
+
+    </div>
+
+</body>
+
+</html>
